@@ -1,0 +1,57 @@
+:root{
+    --color-fondo: #3256b0;
+    --color-ingreso: #32b03c;
+    --color-gasto: #d10707;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #58715a;
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre{
+    background-color: #fff;
+    margin-top: 10%;
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap:16px
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.registro{
+    display: flex;
+    justify-content: space-around;
+}
+.registro div{
+    display: flex;
+}
+
+.hijo input{
+    margin:10px 0px;
+}
+
+button{
+    margin: 10px;
+    border: none;
+    background-color: #7d4040;
+    color:#fff;
+    padding: 5%;
+    border-radius: 10px;
+
+}
