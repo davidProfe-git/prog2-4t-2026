@@ -1,1 +1,13 @@
-console.log("Hola este es mi promer app en node")
+const express = require("express")
+const app = express()
+let port = 4000
+
+
+app.get("/",(req,res)=>{
+    res.send("<h1>tests</h1>")
+})
+
+
+app.listen(port, ()=>{
+    console.log(`corriendo en el ${port}`)
+})
